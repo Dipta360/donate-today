@@ -43,13 +43,14 @@
     margin-bottom: 50px;
 }
 /* Banner Section */
-.banner{
+.banner {
     padding: 175px 307px;
-    background: url(images/donation1.jpg), linear-gradient(to bottom, #1212126a 0%, #121212 100%);
+    background-color: #000;
+    background: url(../assets/images/donation11.jpg), linear-gradient(to bottom, #1212126a 0%, #121212 100%);
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-blend-mode: overlay;
     text-align: center;
 }
 .banner-title{
