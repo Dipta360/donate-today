@@ -16,11 +16,20 @@
 .primary-btn{
     color: #fff;
     padding: 16px 12px;
+    border: 1px solid #FF5959;
     font-size: 20px;
     background-color: #FF5959;
     border-radius: 5px;
-    border: none;
     font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    transition: .4s;
+    display: inline-block;
+}
+.primary-btn:hover{
+    color: #FF5959;
+    background-color: transparent;
+    border: 1px solid #FF5959;
+    cursor: pointer;
 }
 .section-content {
     max-width: 690px;
@@ -95,7 +104,8 @@
     background-color: #FAFAFA;
     padding: 44px 24px;
     border-radius: 5px;
-    border: 2px solid #FAFAFA;;
+    border: 2px solid #FAFAFA;
+    cursor: pointer;
 }
 .money-input:checked~.money-box{
     background-color: #FEE;
@@ -106,7 +116,6 @@
     width: 100%;
     text-align: center;
     margin: 60px 0 30px;
-    color: #B3B3B3;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -120,9 +129,14 @@
     display: flex;
     gap: 24px;
 }
-.donate-card{
+.donate-card {
     padding: 55px 25px;
     border-radius: 5px;
+    transform: translateY(0);
+    transition: .4s;
+}
+.donate-card:hover {
+    transform: translateY(-10px);
 }
 .donate-card1{
     background-color: #edf5f6;
@@ -207,7 +221,7 @@
     outline: none;
     border-radius: 5px 0 0 5px;
 }
-.newsletter-form .submit-btn{
+.submit-btn{
     font-family: 'Roboto', sans-serif;
     color: #fff;
     background-color: #FF5959;
@@ -217,6 +231,7 @@
     padding: 14px 42px;
     border: 1px solid #FF5959;
     border-radius: 0 5px 5px 0;
+    cursor: pointer;
 }
 /* Footer Section */
 footer{
