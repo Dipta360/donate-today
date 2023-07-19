@@ -45,11 +45,10 @@
 /* Banner Section */
 .banner{
     padding: 175px 307px;
-    background-image: url(images/donation1.jpg);
+    background: url(images/donation1.jpg), linear-gradient(to bottom, #1212126a 0%, #121212 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-color: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
     background-blend-mode: overlay;
     text-align: center;
 }
